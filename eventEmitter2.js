@@ -1,10 +1,8 @@
 var events = require('events');
 
-//can be used for grouping event emitters on people
+//can be used for inheritting events
 var utils = require('util');
 
-
-var myEvent = new events.EventEmitter();
 
 var Person = function(name){
     this.name = name;
