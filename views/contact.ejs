@@ -1,0 +1,39 @@
+<!--EJS file is same as an html, but allows javascript to be embedded in it.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serving with NodeJS</title>
+    <style>
+        body{
+            background-color: skyblue;
+            color: white;
+        }
+        h1{
+            text-transform: uppercase;
+            font-family: verdana;
+            padding: 15px;
+            text-align: center;
+        }
+        p{
+            font-family: verdana;
+            padding: 15px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form method="post" action="/contact">
+        <label for="who">Who do you want to contact?</label>
+        <input type="text" name="who">
+        <label for="department">Which Department?</label>
+        <input type="text" name="department">
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
